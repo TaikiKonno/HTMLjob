@@ -1,0 +1,155 @@
+body{
+    margin:0;
+}
+.clearfix{
+    content: "";
+    display: block;
+    clear: both;
+}
+.kon{
+    width: 400px;
+    height: 100px;
+    background-color: #141f40;
+    position: relative;
+}
+.kon-siro{
+    width:160px;
+    height: 60px;
+    background-color: #fff;
+    top: 20px;
+    right: 20px;
+    position: absolute;
+}
+.kon-siro div:first-child{
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    margin:10px 10px 10px 10px ;
+    float: left;
+}
+.kon-siro div:nth-child(2){
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    margin:10px 10px 10px 0px ;
+    float: left;
+}
+.kon-siro div:last-child{
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    margin:10px 10px 10px 0px ;
+    float: left;
+}
+/* .kon-siro div{
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    float: left;
+    margin:10px 0 10px 10px ; 
+}*/
+.main{
+    width: 400px;
+    height: 350px;
+}
+.midori{
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+    float: left;
+}
+.aka{
+    width: 250px;
+    height: 250px;
+    background-color: #8c2727;
+    float: right;
+    position: relative;
+}
+.aka-siro{
+    top: 40px;
+    left: 40px;
+    position: absolute;
+}
+.aka-siro div{
+    width: 150px;
+    height: 50px;
+    background-color: #ff863f;
+    box-sizing: border-box;
+    border: solid 5px #fff;
+    margin-bottom:10px;
+}
+.orange{
+    width: 400px;
+    height: 100px;
+    background-color: #d98d30;
+}
+@media(max-width:479px){
+    .kon{
+        width: 200px;
+        height: 200px;
+        background-color: #141f40;
+        position: relative;
+    }
+    .kon-siro{
+        width: 60px;
+        height: 160px;
+        background-color: #fff;
+        top: 20px;
+        right: 70px;
+        position: absolute;
+    }
+    .kon-siro div:first-child{
+        width: 40px;
+        height: 40px;
+        background-color: #a9004b;
+        margin:10px 10px 0 10px ;
+    }
+    .kon-siro div:nth-child(2){
+        width: 40px;
+        height: 40px;
+        background-color: #a9004b;
+        margin:10px 10px 0 10px ;
+    }
+    .kon-siro div:last-child{
+        width: 40px;
+        height: 40px;
+        background-color: #a9004b;
+        margin:10px 10px 0 10px ;
+    }
+    /* .kon-siro div{
+        width: 40px;
+        height: 40px;
+        background-color: #a9004b;
+        margin:10px 10px 0 10px ;
+    } */
+    .main{
+        width: 200px;
+        height: 410px;
+    }
+    .midori{
+        width: 200px;
+        height: 100px;
+        background-color: #80bfa8;
+    }
+    .aka{
+        width: 200px;
+        height: 210px;
+        background-color: #8c2727;
+    }
+    .aka-siro{
+        top: 20px;
+        left: 30px;
+     }/*
+    .aka-siro div{
+        width: 150px;
+        height: 50px;
+        background-color: #ff863f;
+        box-sizing: border-box;
+        border: solid 5px #fff;
+    } */
+    .orange{
+        width: 200px;
+        height: 100px;
+        background-color: #d98d30;
+    }
+}
