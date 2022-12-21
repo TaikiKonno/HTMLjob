@@ -1,0 +1,161 @@
+body{
+    margin:0
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.main {
+    height: 250px;
+    width: 400px;
+}
+
+.kon {
+    width: 400px;
+    height: 100px;
+    background-color: #141f40;
+}
+
+.main-midori {
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+    float: left;
+}
+.main-pink {
+    width: 100px;
+    height: 150px;
+    background-color: #ff9b6e;
+    float: right;
+}
+.main-kiiro {
+    width: 150px;
+    height: 50px;
+    background-color: #dbd400;
+    float: left;
+}
+.main-ao {
+    height: 100px;
+    width: 150px;
+    background-color: #0093b7;
+    float: left;
+}
+.main-aka {
+    width: 250px;
+    height: 100px;
+    background-color: #8c2727;
+    float: left;
+}
+
+.orange {
+    width: 400px;
+    height: 100px;
+    background-color: #d98d30;
+}
+
+@media(max-width:767px) {
+
+    .main {
+        height: 250px;
+        width: 300px;
+    }
+    
+    .kon {
+        width: 300px;
+        height: 100px;
+        background-color: #141f40;
+    }
+    
+    .main-midori {
+        width: 100px;
+        height: 250px;
+        background-color: #80bfa8;
+        float: left;
+    }
+    
+    .main-kiiro {
+        width: 125px;
+        height: 50px;
+        background-color: #dbd400;
+        float: left;
+    }
+    
+    .main-ao {
+        width: 125px;
+        height: 100px;
+        background-color: #0093b7;
+        float: left;
+    }
+    
+    .main-pink {
+        width: 75px;
+        height: 150px;
+        float: right;
+        background-color: #ff9b6e;
+    }
+    
+    .main-aka {
+        width: 200px;
+        height: 100px;
+        background-color: #8c2727;
+        float: left;
+    }
+    
+    .orange {
+        width: 300px;
+        height: 100px;
+        background-color: #d98d30;
+    }
+}
+@media(max-width:479px){
+    
+    .main {
+        width: 150px;
+        height: 450px;
+    }
+    
+    .kon {
+        width: 150px;
+        height: 100px;
+        background-color: #141f40;
+    }
+    
+    .main-midori {
+        width: 150px;
+        height: 100px;
+        background-color: #80bfa8;
+        
+    }
+
+    .main-pink {
+        width: 150px;
+        height: 100px;
+        background-color: #ff9b6e;
+        
+    }
+    .main-kiiro {
+        width: 150px;
+        height: 50px;
+        background-color: #dbd400;
+        
+    }
+    .main-ao {
+        width: 150px;
+        height: 100px;
+        background-color: #0093b7;
+        
+    }
+    .main-aka {
+        width: 150px;
+        height: 100px;
+        background-color: #8c2727;
+        
+    }
+    .orange {
+        width: 150px;
+        height: 100px;
+        background-color: #d98d30;
+    }
+}
